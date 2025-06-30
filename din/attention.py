@@ -70,6 +70,9 @@ class LocalActivationUnit(nn.Module):
 if __name__ == "__main__":
     a = AttentionSequencePoolingLayer()
     
+    # test for git
+    e = 1
+
     import torch
     b = torch.zeros((3, 1, 4))
     c = torch.zeros((3, 20, 4))

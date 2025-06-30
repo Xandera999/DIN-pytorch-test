@@ -130,7 +130,6 @@ if __name__ == "__main__":
     import torch
     import numpy as np
 
-    
     user_feature = {
         'user_exposed_time': torch.LongTensor(np.zeros(shape=(2, 24))),
         'user_gender': torch.LongTensor(np.zeros(shape=(2, 2))),
