@@ -73,6 +73,8 @@ if __name__ == "__main__":
     # test for git
     e = 1
 
+    # modify attention
+
     import torch
     b = torch.zeros((3, 1, 4))
     c = torch.zeros((3, 20, 4))
