@@ -33,7 +33,7 @@ class Dice(nn.Module):
 
 if __name__ == "__main__":
     # modify the dice module
-    
+    # test the pull in branch of dice
     a = Dice(32)
     b = torch.zeros((10, 32))
     #b = torch.transpose(b, 1, 2)
